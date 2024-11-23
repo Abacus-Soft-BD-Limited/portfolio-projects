@@ -5,7 +5,53 @@
 	font-style: normal;
 	font-variation-settings: 'wdth' 100;
 }
+/* shared style  */
+.btn {
+	padding: 15px 20px;
+	background-color: #fd6e0a;
+	color: #fff;
+	border: none;
+	font: 800;
+	font-size: 20px;
+	border-radius: 12px;
+}
 
-body {
-	font-family: 'Open Sans', serif;
+.header {
+	background-color: #fff8f3;
+	background-image: url('../images/developer.png'),
+		url('../images/header_bg.png');
+	background-position: top left, bottom right;
+	background-repeat: no-repeat;
+}
+
+/* Navbar Style */
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	gap: 30px;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.banner-content {
+	max-width: 585px;
 }
