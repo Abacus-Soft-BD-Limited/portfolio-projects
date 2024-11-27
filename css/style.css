@@ -17,12 +17,22 @@
 	font: 800;
 	font-size: 20px;
 	border-radius: 8px;
+	cursor: pointer;
 }
 .bg-secondary {
 	background-color: #fff8f3;
 }
 .text-center {
 	text-align: center;
+}
+.section-title {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.section-description {
+	font-size: 18px;
+	color: #757575;
 }
 
 main {
@@ -140,7 +150,82 @@ nav ul li a {
 	padding: 30px 32px;
 	background: white;
 	color: #757575;
-	border: 1px solid #757575;
-	border-radius: 10px;
-	box-shadow: 10px 10px rgba(0 0 0, 0.8);
+	/* border: 1px solid #757575;
+	border-radius: 10px; */
+	box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Resume section Style */
+.resume-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+.resume-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+
+.education-title {
+	font-size: 30px;
+	font-size: 700;
+	color: #474747;
+}
+.education-sub-heading {
+	font-size: 25px;
+	font-size: 700;
+	color: #474747;
+}
+
+.eduction-sub-heading-2 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #757575;
+}
+
+.education-description {
+	color: #757575;
+	font-size: 16px;
+	font-weight: 400;
+}
+/* .download-btn {
+	margin: 0 auto;
+} */
+/* .education-container-1,
+.education-container-2,
+.experience-container-1,
+.experience-container-2 {
+	border-bottom: 2px solid #757575;
+} */
+
+/* Footer Section Style */
+
+.footer-section {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff8f3;
+	padding: 150px 150px;
+	gap: 50px;
+}
+
+.icon {
+	font-size: 30px;
+	color: #fd6e0a;
+}
+
+.form-section {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+footer input[type='text'],
+footer input[type='email'],
+footer textarea {
+	height: 64px;
+	border-radius: 5px;
+	background-color: white;
+	border: none;
 }
